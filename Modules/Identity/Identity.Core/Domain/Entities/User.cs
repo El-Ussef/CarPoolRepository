@@ -1,3 +1,4 @@
+using CarPool.Shared.Events.Common.Entities;
 using Identity.Core.Domain.Common;
 
 namespace Identity.Core.Domain.Entities;

@@ -1,9 +1,11 @@
 using System.Reflection;
 using AutoMapper;
+using CarPool.Shared.Events.Interfaces;
 using Identity.Core.Application.Contracts;
 using Identity.Core.Application.DTOs;
 using Identity.Core.Domain.Common;
 using Identity.Core.Domain.Entities;
+using Identity.Infrastructure.Context;
 using Identity.Infrastructure.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

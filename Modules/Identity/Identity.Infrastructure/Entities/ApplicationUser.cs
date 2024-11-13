@@ -1,4 +1,5 @@
 using AutoMapper;
+using CarPool.Shared.Events.Common.Entities;
 using Identity.Core.Application.Mappings;
 using Identity.Core.Domain.Common;
 using Identity.Core.Domain.Entities;

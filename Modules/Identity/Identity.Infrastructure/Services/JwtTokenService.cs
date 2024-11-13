@@ -10,7 +10,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
 
-namespace Identity.Core.Application.Services;
+namespace Identity.Infrastructure.Services;
 
 public class JwtTokenService : IJwtTokenService
 {

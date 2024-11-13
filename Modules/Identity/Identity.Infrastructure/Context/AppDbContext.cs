@@ -1,10 +1,13 @@
+using CarPool.Shared.Events.Common.Entities;
+using CarPool.Shared.Events.Interfaces;
 using Identity.Core.Application.Contracts;
-using Identity.Core.Domain.Common;
 using Identity.Infrastructure.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+
+namespace Identity.Infrastructure.Context;
 
 public class AppDbContext : IdentityDbContext<ApplicationUser>
 {

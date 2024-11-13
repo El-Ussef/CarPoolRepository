@@ -2,6 +2,7 @@ using Identity.Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using CarPool.Shared.Events;
 using Identity.Api.Endpoints;
 using Identity.Api.Services;
 using Identity.Core.Application.Contracts;
@@ -42,6 +43,7 @@ builder.Services.AddSwaggerGen();
 
 // Register Identity Infrastructure
 builder.Services.AddPersistenceInfrastructure(builder.Configuration);
+builder.Services.AddSharedDependencies(builder.Configuration);
 builder.Services.AddHttpContextAccessor();
 
 // Add Authorization

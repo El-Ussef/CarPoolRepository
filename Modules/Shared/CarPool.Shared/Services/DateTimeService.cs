@@ -1,6 +1,6 @@
-using Identity.Core.Application.Contracts;
+using CarPool.Shared.Events.Interfaces;
 
-namespace Identity.Infrastructure.Services;
+namespace CarPool.Shared.Events.Services;
 
 public class DateTimeService : IDateTimeService
 {

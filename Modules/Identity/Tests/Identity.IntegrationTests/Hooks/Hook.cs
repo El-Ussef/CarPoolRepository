@@ -1,6 +1,8 @@
 using Microsoft.Extensions.Configuration;
 using TechTalk.SpecFlow;
 
+namespace Identity.IntegrationTests.Hooks;
+
 [Binding]
 public class Hook
 {

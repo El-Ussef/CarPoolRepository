@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Identity.Core.Domain.Common;
+namespace CarPool.Shared.Events.Common.Entities;
 
 public interface IEntity
 {

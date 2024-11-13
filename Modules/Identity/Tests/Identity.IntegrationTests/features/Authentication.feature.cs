@@ -9,14 +9,12 @@
 //  </auto-generated>
 // ------------------------------------------------------------------------------
 #region Designer generated code
+
+using TechTalk.SpecFlow;
+
 #pragma warning disable
-namespace Identity.IntegrationTests.Features
+namespace Identity.IntegrationTests.features
 {
-    using TechTalk.SpecFlow;
-    using System;
-    using System.Linq;
-    
-    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.9.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public partial class AuthenticationFeature : object, Xunit.IClassFixture<AuthenticationFeature.FixtureData>, System.IDisposable
@@ -80,10 +78,10 @@ namespace Identity.IntegrationTests.Features
             this.TestTearDown();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="Driver Registration Should Succeed")]
-        [Xunit.TraitAttribute("FeatureTitle", "Authentication")]
-        [Xunit.TraitAttribute("Description", "Driver Registration Should Succeed")]
-        [Xunit.TraitAttribute("Category", "authentication")]
+        [SkippableFact(DisplayName="Driver Registration Should Succeed")]
+        [Trait("FeatureTitle", "Authentication")]
+        [Trait("Description", "Driver Registration Should Succeed")]
+        [Trait("Category", "authentication")]
         public void DriverRegistrationShouldSucceed()
         {
             string[] tagsOfScenario = new string[] {
@@ -131,10 +129,10 @@ namespace Identity.IntegrationTests.Features
             this.ScenarioCleanup();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="Client Registration Should Succeed")]
-        [Xunit.TraitAttribute("FeatureTitle", "Authentication")]
-        [Xunit.TraitAttribute("Description", "Client Registration Should Succeed")]
-        [Xunit.TraitAttribute("Category", "authentication")]
+        [SkippableFact(DisplayName="Client Registration Should Succeed")]
+        [Trait("FeatureTitle", "Authentication")]
+        [Trait("Description", "Client Registration Should Succeed")]
+        [Trait("Category", "authentication")]
         public void ClientRegistrationShouldSucceed()
         {
             string[] tagsOfScenario = new string[] {
@@ -176,10 +174,10 @@ namespace Identity.IntegrationTests.Features
             this.ScenarioCleanup();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="User Login Should Succeed")]
-        [Xunit.TraitAttribute("FeatureTitle", "Authentication")]
-        [Xunit.TraitAttribute("Description", "User Login Should Succeed")]
-        [Xunit.TraitAttribute("Category", "authentication")]
+        [SkippableFact(DisplayName="User Login Should Succeed")]
+        [Trait("FeatureTitle", "Authentication")]
+        [Trait("Description", "User Login Should Succeed")]
+        [Trait("Category", "authentication")]
         public void UserLoginShouldSucceed()
         {
             string[] tagsOfScenario = new string[] {

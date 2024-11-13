@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Travel.Api</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Application" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Shared\CarPool.Shared\CarPool.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -66,9 +66,8 @@ public static class ServiceExtensions
             });
         });
         // Add EventPublisher registration
-        services.AddTransient<IEventPublisher, EventPublisher>();
+        //services.AddTransient<IEventPublisher, EventPublisher>();
         
-        services.AddTransient<IDateTimeService, DateTimeService>();
         services.AddTransient<IUserRepository, UserRepository>();
         services.AddTransient<IUserService, UserService>();
         services.AddTransient<IAuthenticationService, AuthenticationService>();

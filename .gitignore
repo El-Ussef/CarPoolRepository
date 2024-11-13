@@ -1,5 +1,3 @@
-/CarPool.Domain/CarPool.Domain.csproj
-
 # .NET Core
 bin/
 obj/
@@ -32,6 +30,8 @@ artifacts/
 *.user
 *.userosscache
 *.sln.docstates
+CarPool.sln.DotSettings.user
+vs/
 
 # Build results
 [Dd]ebug/

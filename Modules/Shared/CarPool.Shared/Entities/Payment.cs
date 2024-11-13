@@ -1,7 +1,6 @@
-using System.ComponentModel.DataAnnotations;
-using Enum = CarPool.Domain.Enums.Enum;
+using Enum = CarPool.Shared.Events.Enums.Enum;
 
-namespace CarPool.Domain.Entities;
+namespace CarPool.Shared.Events.Entities;
 
 public class Payment
 {

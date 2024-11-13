@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
-using Enum = CarPool.Domain.Enums.Enum;
+using Enum = CarPool.Shared.Events.Enums.Enum;
 
-namespace CarPool.Domain.Entities;
+namespace CarPool.Shared.Events.Entities;
 
 public class Ride
 {
@@ -33,23 +33,23 @@ public class Ride
     // Methods
     public void AddPassenger(Passenger passenger)
     {
-        if (SeatsAvailable > 0)
-        {
-            var booking = new Booking
-            {
-                Ride = this,
-                Passenger = passenger,
-                BookingStatus = Enum.BookingStatus.Confirmed,
-                BookingDate = DateTime.Now
-            };
-            Bookings.Add(booking);
-            SeatsAvailable--;
-            // Save changes to the database
-        }
-        else
-        {
-            throw new InvalidOperationException("No seats available.");
-        }
+        // if (SeatsAvailable > 0)
+        // {
+        //     var booking = new Booking
+        //     {
+        //         Ride = this,
+        //         Passenger = passenger,
+        //         BookingStatus = Enum.BookingStatus.Confirmed,
+        //         BookingDate = DateTime.Now
+        //     };
+        //     Bookings.Add(booking);
+        //     SeatsAvailable--;
+        //     // Save changes to the database
+        // }
+        // else
+        // {
+        //     throw new InvalidOperationException("No seats available.");
+        // }
     }
 
     public void RemovePassenger(Passenger passenger)

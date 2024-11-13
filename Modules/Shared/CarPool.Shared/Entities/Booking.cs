@@ -1,9 +1,8 @@
 using System.ComponentModel.DataAnnotations;
-using Enum = CarPool.Domain.Enums.Enum;
-using CarPool.Domain.ValueObjects;
-using CarPool.Domain.Exceptions;
+using CarPool.Shared.Events.Exceptions;
+using Enum = CarPool.Shared.Events.Enums.Enum;
 
-namespace CarPool.Domain.Entities;
+namespace CarPool.Shared.Events.Entities;
 
 public class Booking
 {
@@ -40,7 +39,7 @@ public class Booking
         BookingStatus = newStatus;
     }
     // Add money value object for payment
-    public required Money Price { get; set; }
+    //public required Money Price { get; set; }
 
     // Add pickup/dropoff locations
     public required Location PickupLocation { get; set; }

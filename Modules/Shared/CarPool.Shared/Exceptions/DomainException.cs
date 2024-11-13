@@ -1,4 +1,4 @@
-namespace CarPool.Domain.Exceptions;
+namespace CarPool.Shared.Events.Exceptions;
 
 public class DomainException : Exception
 {

@@ -1,8 +1,14 @@
-namespace CarPool.Domain.Enums;
+namespace CarPool.Shared.Events.Enums;
 
 public class Enum
 {
     public enum BookingStatus
+    {
+        Pending,
+        Confirmed,
+        Cancelled
+    }
+    public enum TravelStatus
     {
         Pending,
         Confirmed,

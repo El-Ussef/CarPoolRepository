@@ -1,6 +1,6 @@
-using CarPool.Domain.Exceptions;
+using CarPool.Shared.Events.Exceptions;
 
-namespace CarPool.Domain.ValueObjects;
+namespace Travel.Core.Domain.ValueObjects;
 
 public record Money
 {

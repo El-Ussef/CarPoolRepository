@@ -1,4 +1,4 @@
-namespace CarPool.Domain.Entities;
+namespace CarPool.Shared.Events.Entities;
 
 public class Driver : User
 {

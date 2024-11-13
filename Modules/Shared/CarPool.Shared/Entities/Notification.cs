@@ -1,6 +1,4 @@
-using System.ComponentModel.DataAnnotations;
-
-namespace CarPool.Domain.Entities;
+namespace CarPool.Shared.Events.Entities;
 
 public class Notification
 {

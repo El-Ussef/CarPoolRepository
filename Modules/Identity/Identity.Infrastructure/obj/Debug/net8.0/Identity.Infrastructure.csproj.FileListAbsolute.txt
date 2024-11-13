@@ -1,0 +1,17 @@
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/bin/Debug/net8.0/Identity.Infrastructure.deps.json
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/bin/Debug/net8.0/Identity.Infrastructure.runtimeconfig.json
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/bin/Debug/net8.0/Identity.Infrastructure.dll
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/bin/Debug/net8.0/Identity.Infrastructure.pdb
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/bin/Debug/net8.0/Identity.Core.dll
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/bin/Debug/net8.0/Identity.Core.pdb
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.csproj.AssemblyReference.cache
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.AssemblyInfoInputs.cache
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.AssemblyInfo.cs
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.9C1318B7.Up2Date
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.dll
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/obj/Debug/net8.0/refint/Identity.Infrastructure.dll
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.pdb
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/obj/Debug/net8.0/Identity.Infrastructure.genruntimeconfig.cache
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Infrastructure/obj/Debug/net8.0/ref/Identity.Infrastructure.dll

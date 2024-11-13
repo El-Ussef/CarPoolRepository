@@ -1,0 +1,12 @@
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Core/bin/Debug/net8.0/Identity.Core.deps.json
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Core/bin/Debug/net8.0/Identity.Core.dll
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Core/bin/Debug/net8.0/Identity.Core.pdb
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Core/obj/Debug/net8.0/Identity.Core.csproj.AssemblyReference.cache
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Core/obj/Debug/net8.0/Identity.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Core/obj/Debug/net8.0/Identity.Core.AssemblyInfoInputs.cache
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Core/obj/Debug/net8.0/Identity.Core.AssemblyInfo.cs
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Core/obj/Debug/net8.0/Identity.Core.csproj.CoreCompileInputs.cache
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Core/obj/Debug/net8.0/Identity.Core.dll
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Core/obj/Debug/net8.0/refint/Identity.Core.dll
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Core/obj/Debug/net8.0/Identity.Core.pdb
+/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Core/obj/Debug/net8.0/ref/Identity.Core.dll

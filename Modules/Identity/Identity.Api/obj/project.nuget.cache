@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jEQjzo9e2+Ui+BEauiOzAodjt003kv6ZUs3b8Yt678uKaZh4JG5PeKoGMbbo5w5rzJN2wul3k1oILmf9tP6vTA==",
+  "dgSpecHash": "T5zOLigab/8=",
   "success": true,
   "projectFilePath": "/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Api/Identity.Api.csproj",
   "expectedPackageFiles": [
@@ -58,7 +58,10 @@
     "/Users/youssefelmanssouri/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "/Users/youssefelmanssouri/.nuget/packages/system.identitymodel.tokens.jwt/8.2.0/system.identitymodel.tokens.jwt.8.2.0.nupkg.sha512",
     "/Users/youssefelmanssouri/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
-    "/Users/youssefelmanssouri/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+    "/Users/youssefelmanssouri/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
+    "/Users/youssefelmanssouri/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/youssefelmanssouri/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/youssefelmanssouri/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.11/microsoft.netcore.app.host.osx-arm64.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "qBzLlK9DLY/KlpOGNz0nd6v8KwW2KRI3oU/eC3A1fDMxkT2eFBBRp3yU36mr5l/oTPmWoSHb3i/hLLdStHFQ0w==",
+  "dgSpecHash": "T92yHVjpnMk=",
   "success": true,
   "projectFilePath": "/Users/youssefelmanssouri/Projects/dotnet/CarPool/Modules/Identity/Identity.Core/Identity.Core.csproj",
   "expectedPackageFiles": [
     "/Users/youssefelmanssouri/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/youssefelmanssouri/.nuget/packages/masstransit/8.3.1/masstransit.8.3.1.nupkg.sha512",
     "/Users/youssefelmanssouri/.nuget/packages/masstransit.abstractions/8.3.1/masstransit.abstractions.8.3.1.nupkg.sha512",
+    "/Users/youssefelmanssouri/.nuget/packages/masstransit.rabbitmq/8.3.1/masstransit.rabbitmq.8.3.1.nupkg.sha512",
     "/Users/youssefelmanssouri/.nuget/packages/microsoft.bcl.timeprovider/8.0.1/microsoft.bcl.timeprovider.8.0.1.nupkg.sha512",
     "/Users/youssefelmanssouri/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/Users/youssefelmanssouri/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
@@ -23,8 +24,13 @@
     "/Users/youssefelmanssouri/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.2.0/microsoft.identitymodel.jsonwebtokens.8.2.0.nupkg.sha512",
     "/Users/youssefelmanssouri/.nuget/packages/microsoft.identitymodel.logging/8.2.0/microsoft.identitymodel.logging.8.2.0.nupkg.sha512",
     "/Users/youssefelmanssouri/.nuget/packages/microsoft.identitymodel.tokens/8.2.0/microsoft.identitymodel.tokens.8.2.0.nupkg.sha512",
+    "/Users/youssefelmanssouri/.nuget/packages/rabbitmq.client/6.8.1/rabbitmq.client.6.8.1.nupkg.sha512",
     "/Users/youssefelmanssouri/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
-    "/Users/youssefelmanssouri/.nuget/packages/system.identitymodel.tokens.jwt/8.2.0/system.identitymodel.tokens.jwt.8.2.0.nupkg.sha512"
+    "/Users/youssefelmanssouri/.nuget/packages/system.identitymodel.tokens.jwt/8.2.0/system.identitymodel.tokens.jwt.8.2.0.nupkg.sha512",
+    "/Users/youssefelmanssouri/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/youssefelmanssouri/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
+    "/Users/youssefelmanssouri/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/youssefelmanssouri/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }

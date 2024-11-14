@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using CarPool.Shared.Events;
+using CarPool.Shared.Events.Interfaces;
 using Identity.Api.Endpoints;
 using Identity.Api.Services;
 using Identity.Core.Application.Contracts;

@@ -10,6 +10,8 @@ public class Enum
     }
     public enum TravelStatus
     {
+        Created,
+        Open,
         Pending,
         Confirmed,
         Cancelled

@@ -3,15 +3,15 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 
-namespace Identity.Infrastructure.Context;
+namespace Travels.Infrastructure.Context;
 
-public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
+public class AppDbContextFactory: IDesignTimeDbContextFactory<AppDbContext>
 {
     public AppDbContext CreateDbContext(string[] args)
     {
         var configuration = GetConfigurationRoot();
 
-        var connectionString = configuration.GetConnectionString("IdentityConnection");
+        var connectionString = configuration.GetConnectionString("DefaultConnection");
         
         var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
         optionsBuilder.UseNpgsql(connectionString,

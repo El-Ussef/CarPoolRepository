@@ -1,5 +1,6 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using CarPool.Shared.Events.Interfaces;
 using Identity.Core.Application.Contracts;
 
 namespace Identity.Api.Services;

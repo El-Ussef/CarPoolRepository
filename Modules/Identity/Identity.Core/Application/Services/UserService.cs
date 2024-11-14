@@ -1,4 +1,5 @@
 using AutoMapper;
+using CarPool.Shared.Events.Common.Interfaces;
 using Identity.Core.Application.Commons;
 using Identity.Core.Application.Contracts;
 using Identity.Core.Application.DTOs;

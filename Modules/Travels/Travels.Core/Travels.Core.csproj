@@ -7,8 +7,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Common" />
-      <Folder Include="Context" />
+      <ProjectReference Include="..\..\Shared\CarPool.Shared\CarPool.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="13.0.1" />
     </ItemGroup>
 
 </Project>

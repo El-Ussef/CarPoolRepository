@@ -11,14 +11,5 @@ public static class ServiceExtensions
     public static void AddSharedDependencies(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddTransient<IDateTimeService, DateTimeService>();
-
-        services.AddMassTransit(x =>
-        {
-            x.UsingRabbitMq((context, cfg) =>
-            {
-                cfg.Host(configuration.GetConnectionString("RabbitMQ"));
-                cfg.ConfigureEndpoints(context);
-            });
-        });
     }
 }

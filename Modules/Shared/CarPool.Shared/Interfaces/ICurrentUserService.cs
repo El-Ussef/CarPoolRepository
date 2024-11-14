@@ -1,4 +1,4 @@
-namespace Identity.Core.Application.Contracts;
+namespace CarPool.Shared.Events.Interfaces;
 
 public interface ICurrentUserService
 {

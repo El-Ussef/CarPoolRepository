@@ -1,6 +1,6 @@
 using CarPool.Shared.Events.Exceptions;
 
-namespace BookingTravels.Core.Domain.ValueObjects;
+namespace CarPool.Shared.Events.ValueObjects;
 
 public record Location
 {

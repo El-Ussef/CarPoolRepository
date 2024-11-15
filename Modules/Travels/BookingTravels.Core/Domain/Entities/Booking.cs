@@ -1,6 +1,6 @@
-using BookingTravels.Core.Domain.ValueObjects;
 using CarPool.Shared.Events.Common.Entities;
 using CarPool.Shared.Events.Exceptions;
+using CarPool.Shared.Events.ValueObjects;
 using Enum = CarPool.Shared.Events.Enums.Enum;
 
 namespace BookingTravels.Core.Domain.Entities;
@@ -44,6 +44,9 @@ public class Booking : BaseEntity<Guid>
 
     public void CancelBooking()
     {
+        if (Status == Enum.BookingStatus.Cancelled)
+            throw new Exception("Booking is already cancelled.");
+        
         if (Status == Enum.BookingStatus.Cancelled)
             throw new DomainException("Booking is already cancelled.");
 

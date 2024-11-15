@@ -22,6 +22,7 @@ public class TravelService : ITravelService
         return await _travelRepository.GetByIdAsync(travelId);
     }
 
+    //TODO: possible delete this method
     public async Task ReserveSeatsAsync(Guid travelId, int seats)
     {
         var travel = await _travelRepository.GetByIdAsync(travelId);
@@ -35,10 +36,12 @@ public class TravelService : ITravelService
         await _travelRepository.UpdateAsync(travel);
     }
 
+    //TODO: possible delete this method
     public async Task ReleaseSeatsAsync(Guid travelId, int seats)
     {
         var travel = await _travelRepository.GetByIdAsync(travelId);
-        if (travel == null)
+        
+        if (travel is null)
             throw new Exception("Travel not found.");
 
         travel.ReleaseSeats(seats);

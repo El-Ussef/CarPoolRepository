@@ -1,4 +1,5 @@
-using BookingTravels.Core.Domain.ValueObjects;
+
+using CarPool.Shared.Events.ValueObjects;
 
 namespace BookingTravels.Core.Application.DTOs.Travels;
 

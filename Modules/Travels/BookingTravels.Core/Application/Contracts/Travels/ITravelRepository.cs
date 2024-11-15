@@ -7,11 +7,10 @@ public interface ITravelRepository
 {
     Task CreateTravelAsync(Travel travel);
 
-    Task<Travel> GetByIdAsync(Guid id);
+    Task<Travel?> GetByIdAsync(Guid id);
     
-    Task<Travel> GetTravelByCriteriaAsync(TravelSearchResponse searchResponse);
+    Task<IReadOnlyList<Travel>> GetTravelByCriteriaAsync(TravelSearchRequest searchResponse);
 
     Task UpdateAsync(Travel travel);
     
-    Task ChooseTravelAsync(Guid id);
 }

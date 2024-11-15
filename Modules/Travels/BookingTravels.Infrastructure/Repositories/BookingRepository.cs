@@ -20,7 +20,7 @@ public class BookingRepository: IBookingRepository
         await _context.SaveChangesAsync();
     }
 
-    public async Task<Booking> GetByIdAsync(Guid bookingId)
+    public async Task<Booking?> GetByIdAsync(Guid bookingId)
     {
         return await _context.Bookings
             .Include(b => b.Travel)

@@ -4,7 +4,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C3F6113C-692
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{68AA2D80-6AEE-427F-8D73-FD6285789E1D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Travels", "Travels", "{73C76F87-5A67-4D95-A753-3860E4F02D20}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookingTravels", "BookingTravels", "{73C76F87-5A67-4D95-A753-3860E4F02D20}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payments", "Payments", "{6FE06AEC-3150-485E-9E84-F31A002A89CD}"
 EndProject
@@ -28,9 +28,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{D4CE3C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPool.Shared", "Modules\Shared\CarPool.Shared\CarPool.Shared.csproj", "{0DC2599F-4945-45CC-9AB3-4FE0B1C6C4B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travels.Infrastructure", "Modules\Travels\Travels.Infrastructure\Travels.Infrastructure.csproj", "{D753FCA7-692C-4DFE-BDCA-7CAFD5D37E1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingTravels.Infrastructure", "Modules\Travels\BookingTravels.Infrastructure\BookingTravels.Infrastructure.csproj", "{D753FCA7-692C-4DFE-BDCA-7CAFD5D37E1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travels.Core", "Modules\Travels\Travels.Core\Travels.Core.csproj", "{A968B582-A7F0-4CF7-95EB-EE9D71EE3073}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingTravels.Core", "Modules\Travels\BookingTravels.Core\BookingTravels.Core.csproj", "{A968B582-A7F0-4CF7-95EB-EE9D71EE3073}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

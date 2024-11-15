@@ -12,6 +12,7 @@ public class Enum
     {
         Created,
         Open,
+        Active,
         Pending,
         Confirmed,
         Cancelled
